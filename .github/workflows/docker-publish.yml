@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: ristoholappa/node-ssh-yarn
+  IMAGE_NAME: node-ssh-yarn
 
 jobs:
   # Run tests.
