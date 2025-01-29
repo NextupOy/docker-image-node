@@ -1,5 +1,6 @@
 FROM node:14.21.3-bullseye
 
+RUN  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 32EE5355A6BC6E42
 RUN  apt-get update \
      && apt-get install -y wget --no-install-recommends \
      && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
