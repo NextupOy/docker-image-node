@@ -1,4 +1,4 @@
-FROM node:18.20.8-bullseye
+FROM node:22.23.1-bookworm
 
 RUN  apt-get update \
      && apt-get install -y wget --no-install-recommends \
